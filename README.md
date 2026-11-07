@@ -6,6 +6,11 @@
 
 **Profesor:** José Higuera
 
+[![Vista del dashboard](imagenes/captura_dashboard.png)](https://gigideuva.github.io/CORALES_TEMPERATURA_MAR/dashboard/)
+
+**Ver el dashboard en línea:** https://gigideuva.github.io/CORALES_TEMPERATURA_MAR/dashboard/
+
+
 ## Pregunta de investigación
 
 ¿Cómo ha cambiado el estrés térmico en el Caribe y el Pacífico de Panamá desde 1985, y qué tan expuestos están los corales registrados en cada costa a un riesgo potencial de blanqueamiento?
