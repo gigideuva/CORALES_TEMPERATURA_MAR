@@ -1635,7 +1635,7 @@ def construir_html_dashboard(metricas, graficas, imagenes):
             <ul style="list-style: none; padding-left: 0; display: flex; flex-direction: column; gap: 0.65rem; color: #cbd5e1; font-size: 0.78rem; line-height: 1.55;">
               <li class="flex items-start gap-2">
                 <span style="width: 0.35rem; height: 0.35rem; border-radius: 9999px; background: #1FA7A6; margin-top: 0.45rem; shrink: 0;"></span>
-                <span>Corales: GBIF, descarga 0041553-260928105237408.</span>
+                <span>Corales: GBIF.org (22 de octubre de 2026), GBIF Occurrence Download, <a style="color: #80f5f3; text-decoration: underline;" href="https://doi.org/10.15468/dl.uk243b" target="_blank">https://doi.org/10.15468/dl.uk243b</a>.</span>
               </li>{fuente_contorno_html}
               <li class="flex items-start gap-2">
                 <span style="width: 0.35rem; height: 0.35rem; border-radius: 9999px; background: #1FA7A6; margin-top: 0.45rem; shrink: 0;"></span>

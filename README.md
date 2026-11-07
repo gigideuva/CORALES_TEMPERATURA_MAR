@@ -74,6 +74,6 @@ Los datos de corales (GBIF) son una descarga fija y no cambian; por eso `1_limpi
 
 ## Fuentes de datos
 
-- **Corales:** GBIF, descarga 0041553-260928105237408.
+- **Corales:** GBIF.org (22 de octubre de 2026), GBIF Occurrence Download, https://doi.org/10.15468/dl.uk243b
 - **Temperatura:** NOAA Coral Reef Watch, 5 km Regional Virtual Stations v3.1 (estaciones Panama Atlantic East, Atlantic West, Pacific East y Pacific West).
 - **Contorno de Panamá:** geoBoundaries (gbOpen, ADM0), dominio público.
