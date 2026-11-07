@@ -1,7 +1,9 @@
 # Corales de Panamá y eventos de El Niño: un análisis con datos abiertos
 
-**Integrantes:** Angela Pérez  · Edwin De Frías 
+**Integrantes:** Angela Pérez ([@gigideuva](https://github.com/gigideuva)) · Edwin De Frías ([@edwin-defrias](https://github.com/edwin-defrias))
+
 **Curso:** Introducción a la Programación para Ciencia de Datos · Maestría en Ciencias de los Datos, Universidad Interamericana de Panamá
+
 **Profesor:** José Higuera
 
 ## Pregunta de investigación
@@ -11,17 +13,17 @@
 ## Estructura de la carpeta
 
 ```
-Proyecto Final/
+CORALES_TEMPERATURA_MAR/
 ├── README.md                    este archivo
 ├── requirements.txt             bibliotecas necesarias
 ├── ejecutar_todo.py             ejecuta todo el flujo en orden (pasos 1 a 4)
-├── actualizar.bat               lo usa el Programador de tareas de Windows
+├── actualizar.bat               ejecuta todo y guarda un registro de mensajes
 ├── descargar_temperatura.py     paso 1: descarga los datos de NOAA
 ├── generar_dashboard.py         paso 4: genera el dashboard
 ├── descargar_contorno.py        se usa una sola vez: contorno de Panamá para el mapa
 ├── ver_ultimos_dias.py          consulta rápida de los últimos 3 días de temperatura
 ├── contenido.md                 textos del dashboard
-├── registro_actualizacion.txt   registro de cada actualización automática
+├── imagenes/                    logos, fondos y fotos del dashboard
 ├── datos/
 │   ├── originales/              datos crudos, sin modificar (GBIF, NOAA, contorno)
 │   └── limpios/                 datos limpios y tablas para el dashboard
@@ -64,7 +66,7 @@ Este script ejecuta en orden:
 
 ## Actualización automática
 
-En el Programador de tareas de Windows hay una tarea diaria que ejecuta `actualizar.bat`. Este archivo corre `ejecutar_todo.py` y guarda los mensajes en `registro_actualizacion.txt`. Así, el dashboard se actualiza solo cada día, sin editar nada a mano.
+`actualizar.bat` ejecuta `ejecutar_todo.py` (con Python 3.14 o, si no está, 3.13) y guarda los mensajes en `registro_actualizacion.txt`. Se puede correr con doble clic o programar en el Programador de tareas de Windows para que el dashboard se actualice solo cada día, sin editar nada a mano. El registro no se sube al repositorio.
 
 NOAA publica los datos con 1 a 2 días de retraso, por lo que el último dato suele ser de ayer o anteayer.
 
