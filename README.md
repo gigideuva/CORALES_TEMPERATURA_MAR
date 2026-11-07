@@ -8,7 +8,7 @@
 
 [![Vista del dashboard](imagenes/captura_dashboard.png)](https://gigideuva.github.io/CORALES_TEMPERATURA_MAR/dashboard/)
 
-**Ver el dashboard en línea:** https://gigideuva.github.io/CORALES_TEMPERATURA_MAR/dashboard/
+**Ver el dashboard en línea:** [gigideuva.github.io/CORALES_TEMPERATURA_MAR/dashboard](https://gigideuva.github.io/CORALES_TEMPERATURA_MAR/dashboard/)
 
 
 ## Pregunta de investigación
