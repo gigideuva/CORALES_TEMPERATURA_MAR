@@ -1,0 +1,11 @@
+# Registro con rutas de mi computadora
+registro_actualizacion.txt
+
+# Configuración local de VS Code
+.vscode/
+notebooks/.vscode/
+
+# Archivos temporales de Python y Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.tmp

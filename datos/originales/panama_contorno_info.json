@@ -1,0 +1,6 @@
+{
+  "fuente": "geoBoundaries (gbOpen, ADM0)",
+  "licencia": "Public Domain",
+  "url_api": "https://www.geoboundaries.org/api/current/gbOpen/PAN/ADM0/",
+  "url_archivo": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/PAN/ADM0/geoBoundaries-PAN-ADM0_simplified.geojson"
+}
