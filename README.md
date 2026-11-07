@@ -19,6 +19,8 @@
 
 ```
 CORALES_TEMPERATURA_MAR/
+├── .github/workflows/
+│   └── actualizar.yml           actualización diaria automática (GitHub Actions)
 ├── README.md                    este archivo
 ├── requirements.txt             bibliotecas necesarias
 ├── ejecutar_todo.py             ejecuta todo el flujo en orden (pasos 1 a 4)
@@ -71,7 +73,9 @@ Este script ejecuta en orden:
 
 ## Actualización automática
 
-`actualizar.bat` ejecuta `ejecutar_todo.py` (con Python 3.14 o, si no está, 3.13) y guarda los mensajes en `registro_actualizacion.txt`. Se puede correr con doble clic o programar en el Programador de tareas de Windows para que el dashboard se actualice solo cada día, sin editar nada a mano. El registro no se sube al repositorio.
+El repositorio se actualiza solo todos los días a las 10:00 a. m. (hora de Panamá) con **GitHub Actions** (archivo `.github/workflows/actualizar.yml`). GitHub ejecuta `ejecutar_todo.py` en la nube y, si hay cambios, guarda los datos, los notebooks y el dashboard con un commit de `github-actions[bot]`. También se puede ejecutar a mano desde la pestaña **Actions** → **Run workflow**.
+
+Para actualizar desde una computadora con Windows, se puede ejecutar `actualizar.bat`, que corre `ejecutar_todo.py` y guarda los mensajes en `registro_actualizacion.txt`.
 
 NOAA publica los datos con 1 a 2 días de retraso, por lo que el último dato suele ser de ayer o anteayer.
 
