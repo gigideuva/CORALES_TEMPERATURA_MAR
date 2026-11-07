@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# El dashboard lo genera generar_dashboard.py: no contarlo en los porcentajes de lenguajes
+dashboard/index.html linguist-generated=true
