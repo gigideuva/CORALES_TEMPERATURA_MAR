@@ -14327,7 +14327,7 @@ fecha,anio,mes,dia,estacion,costa,sst_min,sst_max,sst_90,anomalia,hotspot,dhw,al
 2024-03-22,2024,3,22,panama_atlantic_east,Caribe,28.13,28.71,28.44,1.6294,0.01,0.0,1,False,True
 2024-03-23,2024,3,23,panama_atlantic_east,Caribe,28.02,28.51,28.41,1.6884,0.0,0.0,1,False,True
 2024-03-24,2024,3,24,panama_atlantic_east,Caribe,28.41,28.82,28.82,1.809,0.28,0.0,1,False,True
-2024-03-25,2024,3,25,panama_atlantic_east,Caribe,28.65,29.17,29.06,2.0281,0.5,0.0,1,True,True
+2024-03-25,2024,3,25,panama_atlantic_east,Caribe,28.65,29.17,29.06,2.0281,0.5,0.0,1,False,True
 2024-03-26,2024,3,26,panama_atlantic_east,Caribe,28.75,29.42,29.18,2.291,0.7,0.0,1,True,True
 2024-03-27,2024,3,27,panama_atlantic_east,Caribe,28.81,29.51,29.4,2.3197,0.84,0.0,1,True,True
 2024-03-28,2024,3,28,panama_atlantic_east,Caribe,28.84,29.61,29.46,2.3613,0.9,0.0,1,True,True
@@ -15289,6 +15289,7 @@ fecha,anio,mes,dia,estacion,costa,sst_min,sst_max,sst_90,anomalia,hotspot,dhw,al
 2026-11-09,2026,11,9,panama_atlantic_east,Caribe,29.27,30.0,29.87,1.6268,1.41,13.2386,5,False,False
 2026-11-10,2026,11,10,panama_atlantic_east,Caribe,29.18,29.84,29.77,1.5326,1.31,13.4257,5,False,False
 2026-11-11,2026,11,11,panama_atlantic_east,Caribe,29.46,30.1,29.97,1.6552,1.41,13.6271,5,False,False
+2026-11-12,2026,11,12,panama_atlantic_east,Caribe,29.34,30.09,30.06,1.6971,1.48,13.8386,5,False,False
 1985-01-01,1985,1,1,panama_atlantic_west,Caribe,27.09,27.47,27.36,0.0913,0.0,,,False,True
 1985-01-02,1985,1,2,panama_atlantic_west,Caribe,26.98,27.36,27.27,0.0206,0.0,,,False,True
 1985-01-03,1985,1,3,panama_atlantic_west,Caribe,26.65,26.97,26.91,-0.321,0.0,,,False,True
@@ -30579,6 +30580,7 @@ fecha,anio,mes,dia,estacion,costa,sst_min,sst_max,sst_90,anomalia,hotspot,dhw,al
 2026-11-09,2026,11,9,panama_atlantic_west,Caribe,29.25,29.71,29.7,1.4442,1.17,7.4043,3,False,False
 2026-11-10,2026,11,10,panama_atlantic_west,Caribe,29.13,30.03,29.95,1.67,1.41,7.6057,3,False,False
 2026-11-11,2026,11,11,panama_atlantic_west,Caribe,29.17,30.02,29.75,1.5103,1.31,7.7929,3,False,False
+2026-11-12,2026,11,12,panama_atlantic_west,Caribe,29.18,30.05,30.01,1.741,1.47,8.0029,4,False,False
 1985-01-01,1985,1,1,panama_pacific_east,Pacífico,26.63,27.28,26.66,-0.1784,0.0,,,False,True
 1985-01-02,1985,1,2,panama_pacific_east,Pacífico,26.55,27.16,26.57,-0.2406,0.0,,,False,True
 1985-01-03,1985,1,3,panama_pacific_east,Pacífico,26.45,27.0,26.48,-0.3129,0.0,,,False,True
@@ -45869,6 +45871,7 @@ fecha,anio,mes,dia,estacion,costa,sst_min,sst_max,sst_90,anomalia,hotspot,dhw,al
 2026-11-09,2026,11,9,panama_pacific_east,Pacífico,29.32,30.02,29.48,2.0555,1.54,18.9314,6,False,False
 2026-11-10,2026,11,10,panama_pacific_east,Pacífico,29.18,29.85,29.59,1.6935,1.36,18.9529,6,False,False
 2026-11-11,2026,11,11,panama_pacific_east,Pacífico,29.47,30.2,29.63,2.1416,1.66,19.0043,6,False,False
+2026-11-12,2026,11,12,panama_pacific_east,Pacífico,29.42,30.2,29.78,1.949,1.63,19.0286,6,False,False
 1985-01-01,1985,1,1,panama_pacific_west,Pacífico,27.75,28.24,27.93,-0.4026,0.0,,,False,True
 1985-01-02,1985,1,2,panama_pacific_west,Pacífico,27.9,28.5,28.2,-0.1074,0.0,,,False,True
 1985-01-03,1985,1,3,panama_pacific_west,Pacífico,27.76,28.3,28.0,-0.3339,0.0,,,False,True
@@ -60006,7 +60009,7 @@ fecha,anio,mes,dia,estacion,costa,sst_min,sst_max,sst_90,anomalia,hotspot,dhw,al
 2023-09-13,2023,9,13,panama_pacific_west,Pacífico,29.03,30.27,30.17,2.0652,1.12,11.5929,4,True,True
 2023-09-14,2023,9,14,panama_pacific_west,Pacífico,29.01,30.32,30.2,2.0816,1.22,11.7671,4,True,True
 2023-09-15,2023,9,15,panama_pacific_west,Pacífico,28.88,30.32,30.14,2.03,1.13,11.9286,4,True,True
-2023-09-16,2023,9,16,panama_pacific_west,Pacífico,28.7,29.93,29.91,1.8987,0.78,11.9286,4,True,True
+2023-09-16,2023,9,16,panama_pacific_west,Pacífico,28.7,29.93,29.91,1.8987,0.78,11.9286,4,False,True
 2023-09-17,2023,9,17,panama_pacific_west,Pacífico,28.78,29.98,29.91,1.9133,0.77,11.9286,4,True,True
 2023-09-18,2023,9,18,panama_pacific_west,Pacífico,29.06,30.03,29.84,1.785,0.77,11.9286,4,False,True
 2023-09-19,2023,9,19,panama_pacific_west,Pacífico,29.0,30.2,30.12,2.132,1.02,12.0743,5,True,True
@@ -61159,3 +61162,4 @@ fecha,anio,mes,dia,estacion,costa,sst_min,sst_max,sst_90,anomalia,hotspot,dhw,al
 2026-11-09,2026,11,9,panama_pacific_west,Pacífico,29.83,30.23,30.02,2.1819,1.38,15.99,6,True,False
 2026-11-10,2026,11,10,panama_pacific_west,Pacífico,29.93,30.48,30.0,2.2648,1.5,15.95,6,True,False
 2026-11-11,2026,11,11,panama_pacific_west,Pacífico,29.98,30.5,30.48,2.4977,1.55,15.9629,6,True,False
+2026-11-12,2026,11,12,panama_pacific_west,Pacífico,30.11,30.49,30.24,2.5039,1.66,15.9871,6,True,False
